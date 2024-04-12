@@ -1,6 +1,8 @@
+
 <template>
     <div>
-        <h1>admin</h1>
+        <Menu></Menu>
+     <List></List>
     </div>
 </template>
 

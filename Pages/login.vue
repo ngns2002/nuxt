@@ -88,8 +88,8 @@ export default {
     },
 
     methods: {
-    signIn() {
-        
+    signIn(event) {
+        event.preventDefault();
         const users = JSON.parse(localStorage.getItem("users"));
 
         // Lấy thông tin đăng nhập từ form
